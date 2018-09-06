@@ -3,3 +3,68 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 90px;
+  height: 90px;
+}
+
+.col-headers {
+  display: flex;
+}
+
+#article-header {
+  width: 55%;
+}
+
+#author-header {
+  width: 15%;
+}
+
+#words-header {
+  width: 15%;
+}
+
+#submitted-header {
+  width: 15%;
+}
+
+.col-headers div {
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.article-item {
+  display: flex;
+}
+
+.article-info-container {
+  display: flex;
+  width: 55%;
+}
+
+.tag-container {
+  display: flex;
+}
+
+.author {
+  width: 15%;
+}
+
+.words {
+  width: 15%;
+}
+
+.submitted {
+  width: 15%;
+}
